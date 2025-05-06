@@ -3,38 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Schéma Système de Domotique</title>
+    <title>Schéma Système de Domotique - Cyberdéfense</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header class="animate__animated animate__fadeInDown">
-        <h1>Schéma Système de Domotique</h1>
+        <h1>Schéma Système de Domotique - Cyberdéfense</h1>
+        <p>Un système intégré pour la sécurité et l'automatisation domestique</p>
     </header>
     <main>
         <section id="firewall" class="animate__animated animate__fadeInLeft">
             <h2>Firewall Principal</h2>
-            <p>Fonctions : IDS/IPS, Inspection TLS, Segmentation stricte des VLANs, etc.</p>
+            <p>Fonctions : IDS/IPS (Suricata ou Zeek), Inspection TLS (MITM pour IoT uniquement), Segmentation stricte des VLANs (IoT, Admin, Caméras, Services, Guest), Geo-blocking et filtrage DNS (Unbound, DNS over TLS), Fail2Ban + Cloudflare Zero Trust Access possible.</p>
         </section>
         <section id="vlan-management" class="animate__animated animate__fadeInRight">
             <h2>VLAN Management</h2>
-            <p>Services : Home Assistant, Reconnaissance faciale, Serveur Biométrique, etc.</p>
+            <p>Services : Home Assistant (automatisations locales, contrôle radar, portes, éclairage), Reconnaissance faciale (DeepStack, CompreFace), Serveur Biométrique (Iris + Empreintes), Agent de surveillance Mosquitto (MQTT Broker sécurisé), Node-RED (scénarios complexes), Draggable API (interactions utilisateur).</p>
         </section>
         <section id="vlan-cameras" class="animate__animated animate__fadeInLeft">
             <h2>VLAN Caméras</h2>
-            <p>Équipements : Caméras EO/IR, Caméras CCTV, Radar de mouvement, etc.</p>
+            <p>Équipements : Caméras EO/IR (thermiques + optiques), Caméras CCTV (PoE, RTSP, ONVIF), Radar de mouvement longue portée (sous forêt/pluie), Microphones d'ambiance pour levée de doute (stockage local uniquement).</p>
         </section>
         <section id="vlan-iot" class="animate__animated animate__fadeInRight">
             <h2>VLAN IoT</h2>
-            <p>Équipements : Portes biométriques, Interphone vidéo, Détecteurs de fumée, etc.</p>
+            <p>Équipements : Portes biométriques avec lecteur passif, Interphone vidéo Ubiquiti intégré Home Assistant, Détecteurs de fumée, gaz, humidité, Prises connectées, thermostats, volets, etc. Sécurité : Chaque device n'a accès qu’au MQTT Broker, Aucune communication directe entre devices, Surveillance de comportement.</p>
         </section>
         <section id="vlan-services" class="animate__animated animate__fadeInLeft">
             <h2>VLAN Services</h2>
-            <p>Services locaux : Jellyfin, Nextcloud, Vaultwarden, etc.</p>
+            <p>Services locaux : Jellyfin / Jellyseer (médias privés), Plex (accès distant avec tunneling chiffré), Nextcloud + OnlyOffice (auto-hébergé), Affine / Joplin Server / Logseq (notes structurées, to-do sécurisée), Vaultwarden (gestionnaire de mots de passe local), Uptime Kuma (monitoring des services), Grafana + Prometheus (visualisation système et capteurs), Paperless NGX (archivage intelligent de documents), Minio / S3-compatible NAS (stockage objet privé), Syncthing / Resilio (synchro P2P auto avec backup différé).</p>
         </section>
         <section id="vlan-admin" class="animate__animated animate__fadeInRight">
             <h2>VLAN Admin</h2>
-            <p>Matériel : Proxmox, VM Docker, Portainer, etc.</p>
+            <p>Matériel : Proxmox (7995WX + 4080 Super), VM Docker (Traefik, Authelia pour authentification centralisée avec MFA), Watchtower (maj auto), Portainer / Yacht (gestion UI des conteneurs), OpenLDAP / Keycloak (authentification centralisée).</p>
         </section>
     </main>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
