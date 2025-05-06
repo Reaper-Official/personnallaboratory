@@ -1,69 +1,74 @@
 body {
-  margin: 0;
-  background-color: #0c0c0c;
-  color: #e0e0e0;
-  font-family: 'Orbitron', sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+    margin: 0;
+    background-color: #0c0c0c;
+    color: #e0e0e0;
+    font-family: 'Orbitron', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .container {
-  max-width: 900px;
-  padding: 3rem 1rem;
+    max-width: 900px;
+    padding: 3rem 1rem;
 }
 
 .hero {
-  margin-bottom: 3rem;
+    margin-bottom: 3rem;
 }
 
 .hero h1 {
-  font-size: 4rem;
-  color: #c00000;
-  text-shadow: 0 0 5px #900;
-  margin: 0;
+    font-size: 4rem;
+    color: #c00000;
+    text-shadow: 0 0 5px #900;
+    margin: 0;
 }
 
 .subtitle {
-  color: #aaa;
-  font-size: 1.4rem;
-  margin: 0.5rem 0;
+    color: #aaa;
+    font-size: 1.4rem;
+    margin: 0.5rem 0;
 }
 
 .tagline {
-  font-style: italic;
-  color: #888;
-  margin-bottom: 2rem;
+    font-style: italic;
+    color: #888;
+    margin-bottom: 2rem;
 }
 
 .content section {
-  margin-bottom: 2.5rem;
+    margin-bottom: 2.5rem;
 }
 
 h2 {
-  color: #ff3c3c;
-  font-size: 1.8rem;
-  margin-bottom: 1rem;
-  text-transform: uppercase;
+    color: #ff3c3c;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
 }
 
 p, li {
-  font-size: 1rem;
-  color: #ccc;
+    font-size: 1rem;
+    color: #ccc;
 }
 
 ul {
-  list-style-type: square;
-  padding-left: 1.2rem;
-  text-align: left;
-  display: inline-block;
+    list-style-type: square;
+    padding-left: 1.2rem;
+    text-align: left;
+    display: inline-block;
 }
 
 .footer {
-  margin-top: 4rem;
-  font-size: 0.8rem;
-  color: #555;
-  border-top: 1px solid #222;
-  padding-top: 1rem;
+    margin-top: 4rem;
+    font-size: 0.8rem;
+    color: #555;
+    border-top: 1px solid #222;
+    padding-top: 1rem;
+}
+
+.animated-text {
+    opacity: 0;
+    transform: translateY(20px);
 }
