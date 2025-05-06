@@ -1,16 +1,17 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #121212;
+    color: #ffffff;
 }
 
 header {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #1e1e1e;
+    color: #00ff00;
     padding: 1rem;
     text-align: center;
+    border-bottom: 2px solid #00ff00;
 }
 
 main {
@@ -18,14 +19,20 @@ main {
 }
 
 section {
-    background-color: white;
-    border: 1px solid #ddd;
+    background-color: #1e1e1e;
+    border: 1px solid #333;
     border-radius: 8px;
     margin-bottom: 1.5rem;
     padding: 1.5rem;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 h2 {
-    color: #4CAF50;
+    color: #00ff00;
+    border-bottom: 2px solid #00ff00;
+    padding-bottom: 0.5rem;
+}
+
+p {
+    color: #cccccc;
 }
