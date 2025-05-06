@@ -14,6 +14,12 @@ header {
     border-bottom: 2px solid #00ff00;
 }
 
+header p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    color: #cccccc;
+}
+
 main {
     padding: 2rem;
 }
@@ -25,14 +31,22 @@ section {
     margin-bottom: 1.5rem;
     padding: 1.5rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7);
 }
 
 h2 {
     color: #00ff00;
     border-bottom: 2px solid #00ff00;
     padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
 }
 
 p {
     color: #cccccc;
+    line-height: 1.6;
 }
