@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schéma Système de Domotique</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="animate__animated animate__fadeInDown">
+        <h1>Schéma Système de Domotique</h1>
+    </header>
+    <main>
+        <section id="firewall" class="animate__animated animate__fadeInLeft">
+            <h2>Firewall Principal</h2>
+            <p>Fonctions : IDS/IPS, Inspection TLS, Segmentation stricte des VLANs, etc.</p>
+        </section>
+        <section id="vlan-management" class="animate__animated animate__fadeInRight">
+            <h2>VLAN Management</h2>
+            <p>Services : Home Assistant, Reconnaissance faciale, Serveur Biométrique, etc.</p>
+        </section>
+        <section id="vlan-cameras" class="animate__animated animate__fadeInLeft">
+            <h2>VLAN Caméras</h2>
+            <p>Équipements : Caméras EO/IR, Caméras CCTV, Radar de mouvement, etc.</p>
+        </section>
+        <section id="vlan-iot" class="animate__animated animate__fadeInRight">
+            <h2>VLAN IoT</h2>
+            <p>Équipements : Portes biométriques, Interphone vidéo, Détecteurs de fumée, etc.</p>
+        </section>
+        <section id="vlan-services" class="animate__animated animate__fadeInLeft">
+            <h2>VLAN Services</h2>
+            <p>Services locaux : Jellyfin, Nextcloud, Vaultwarden, etc.</p>
+        </section>
+        <section id="vlan-admin" class="animate__animated animate__fadeInRight">
+            <h2>VLAN Admin</h2>
+            <p>Matériel : Proxmox, VM Docker, Portainer, etc.</p>
+        </section>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
