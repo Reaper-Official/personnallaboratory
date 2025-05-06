@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     // Animation du texte dans l'en-tête
     anime({
-        targets: 'header .animated-text',
+        targets: '.animated-text',
         opacity: [0, 1],
         translateY: [20, 0],
         duration: 1000,
